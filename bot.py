@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 # ================= CONFIGURATION =================
 BOT_TOKEN = "8998841887:AAEy46s5uoKhh9UYFBZqixGnQNNgTAcA80Q"
-ADMIN_CHAT_ID = -5473730891  # Private group/channel ID where payment requests go
+ADMIN_CHAT_ID = -1003542361932  # Private group/channel ID where payment requests go
 ADMIN_IDS = [8984155177]  # Telegram user ID(s) of admins who can approve & set prices
 PAID_CHANNEL_LINK = "https://t.me/+nmFhDNL_1UEwM2E1"
 UPI_QR_IMAGE_PATH = "qr_code.png"  # Local image file of your UPI QR code
