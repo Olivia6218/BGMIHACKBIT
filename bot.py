@@ -19,12 +19,12 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ================= CONFIGURATION =================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-ADMIN_CHAT_ID = -1001234567890  # Private group/channel ID where payment requests go
-ADMIN_IDS = [123456789]  # Telegram user ID(s) of admins who can approve & set prices
-PAID_CHANNEL_LINK = "https://t.me/+YourHardcodedPrivateChannelInviteLink"
-UPI_QR_IMAGE_PATH = "upi_qr.jpg"  # Local image file of your UPI QR code
-UPI_ID = "yourupi@okaxis"
+BOT_TOKEN = "8998841887:AAEy46s5uoKhh9UYFBZqixGnQNNgTAcA80Q"
+ADMIN_CHAT_ID = -5473730891  # Private group/channel ID where payment requests go
+ADMIN_IDS = [8984155177]  # Telegram user ID(s) of admins who can approve & set prices
+PAID_CHANNEL_LINK = "https://t.me/+nmFhDNL_1UEwM2E1"
+UPI_QR_IMAGE_PATH = "qr_code.jpg"  # Local image file of your UPI QR code
+UPI_ID = "assahidalom@fam"
 PRICES_FILE = "prices.json"
 
 # Default prices in INR (60d = 560, 30d = 390; others chosen sensibly)
